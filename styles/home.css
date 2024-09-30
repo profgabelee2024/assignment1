@@ -1,0 +1,167 @@
+ /* type selectors */
+article, section, figure, footer, header, nav, aside {
+    display: block;
+}
+html {
+	background-image: top, white 0%, #facd8a 100%;
+}
+ 
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+	width: 962px;
+	background-color: white;
+	margin: 15px auto;
+	padding: 15px 25px;
+	border: 1px solid black;
+}
+
+section, aside, h1, h2, p, ul {
+	margin: 0;
+	padding: 0;
+}
+section, aside {
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.2em; }
+
+a { font-weight: bold; }
+a:link { color: green; }
+a:visited { color: #ef9c00; }
+a:hover, a:focus { color: blue; }
+
+ul {
+	margin-left: 1.5em;
+	margin-bottom: 1.5em;
+}
+li { padding-bottom: 0.25em; }
+
+p { padding-bottom: 0.5em; }
+
+em { font-weight: bold; }
+
+
+/* the styles for the header */
+header {
+    padding-bottom: 2em;
+    border-bottom: 2px solid #ef9c00;
+}
+
+header h1 {
+    color: #ef9c00;
+    text-shadow: 2px 3px 0px black;
+    margin-left: 120px;
+    margin-bottom: 0.25em;
+}
+
+header h2 {
+    color: green;
+    font-style: italic;
+    margin-left: 120px;
+}
+
+header img {
+    float: left;         
+    width: 80px;
+    height: 60px;
+}
+/* the styles for the navigation bar */
+#nav_bar {
+    clear: left;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 2px solid #ef9c00;
+}
+
+#nav_bar ul {
+    margin-left: 0px;
+    margin-bottom: 0.5em;
+    list-style: none;
+    padding: 0.5em 2em 0 0 ;
+}
+
+#nav_bar li {
+    display: inline;
+    padding: 0 1.5em;
+    border-right: 2px solid black;
+}
+
+#nav_bar a {
+    text-decoration: none;
+   }
+
+a.current {color: blue}
+/* the styles for the section */
+section {
+    width: 560px;
+    float: left;
+    padding-right: 20px;
+}
+
+section h1, section h2 {
+    margin-bottom: 0.35em;
+}
+
+section p {
+    margin-bottom: 0.5em;
+}
+
+/* the styles for iframe and table of the section */
+iframe {float: left;
+margin-right: 30px;}
+
+table, td, th {
+    border: 1px solid #ddd;
+    padding: 5.3px 5px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table a {text-decoration: none;}
+
+table tr:nth-child(even) {background-color: #f2f2f2}
+
+table tr:hover {background-color: lightblue}
+/* the styles for the sidebar */
+aside {width: 360px; 
+float: left;
+border-left: 2px solid #ef9c00;
+padding-left: 20px
+}
+
+aside h1 {
+    font-size: 125%;
+    padding-bottom: 0.5em;
+}
+
+aside h2 {
+    font-size: 100%;
+    color: blue;
+    padding-bottom: 0.5em;    
+}
+
+aside p {
+    margin-bottom: 0.5em;
+}
+
+#contact_us { margin-top: 1em;
+}
+
+a.date_passed {color: gray;}
+/* the styles for the footer */
+
+footer {
+    clear:both;
+    margin-top: 1em;
+    border-top:2px solid #ef9c00;
+    padding-top: 0.7em;
+}
+
+footer p {
+    font-size: 80%;
+    text-align: right
+}
